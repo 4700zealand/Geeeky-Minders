@@ -11,6 +11,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="GeekyMinders" content="width=device-width,minimum-scale=1, initial-scale=1" />
+            <title>Geeky Minders</title>
         </Head>
         <body>
           <Main />
