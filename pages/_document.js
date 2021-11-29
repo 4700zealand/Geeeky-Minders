@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {<meta name="GeekyMinders" content="width=device-width,minimum-scale=1, initial-scale=1" />}
+          <meta name="GeekyMinders" content="width=device-width,minimum-scale=1, initial-scale=1" />
         </Head>
         <body>
           <Main />
