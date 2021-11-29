@@ -7,10 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     
     <Layout>
-     <Head>
-          <meta name="GeekyMinders" content="width=device-width,minimum-scale=1, initial-scale=1" />
-            <title>Geeky Minders</title>
-        </Head>
+        <title>Geeky Minders</title>
       <Component {...pageProps} />
     </Layout>
   );
