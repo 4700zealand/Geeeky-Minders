@@ -41,7 +41,7 @@ export async function getStaticProps({ params }) {
   const data = await getPostDetails(params.slug);
   return {
     props: {
-      post: data,
+      post: {data},
     },
   };
 }
