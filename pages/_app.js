@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     
     <Layout>
-        <title>Geeky Minders</title>
+     
       <Component {...pageProps} />
     </Layout>
   );
